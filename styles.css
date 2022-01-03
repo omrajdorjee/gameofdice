@@ -1,0 +1,325 @@
+body {
+/* background-image: linear-gradient(to left bottom, #f051e1, #b782ff, #6fa2ff, #0fb8ff, #00c7ff); */
+
+background-color: #BAABDA;
+height: 100vh;
+
+
+}
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Bebas Neue", cursive;
+  font-size: 5rem;
+}
+h3 {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  color: #fff;
+}
+h5{
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  margin-top:0;
+
+}
+#results {
+  background-color: #ffffff15;
+  border: solid 1px #ffffff;
+  border-radius:10px;
+  width: 90%;
+  text-align: center;
+  margin: 2% auto;
+}
+.header {
+  position: relative;
+  top: 0;
+}
+#sectionOne {
+  background-color: rgba(255, 255, 255, 0.157);
+  height: 70vh;
+  border: solid 1px #fff;
+  border-radius:10px;
+  
+}
+#title {
+  margin-top: 0;
+  margin-bottom:0;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+#dice-section {
+  position: relative;
+  
+  background-color: rgba(212, 212, 212, 0);
+  text-align: center;
+  padding: 3%;
+  margin: auto;
+  width: 90%;
+}
+
+.dice {
+  width: 200px;
+  height: 200px; 
+ display: inline-block;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 1% 5% 3%;
+  transition: all 2s;
+}
+.dice-one{
+  background-color: #519259;
+}
+.dice-two{
+  background-color: #DD4A48;
+}
+
+.ran-num {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  position: relative;
+  margin: 5%;
+  border-radius: 50%;
+  display: inline-block;
+}
+.ctg-one-dc1 {
+  position: relative;
+  top: 25px;
+}
+.ctg-two-dc1 {
+  position: relative;
+  top: 25px;
+}
+.ctg-three-dc1 {
+  position: relative;
+  top: 25px;
+}
+.ctg-four-dc1 {
+  position: relative;
+  top: 60px;
+}
+.ctg-five-dc1 {
+  position: relative;
+  top: 60px;
+}
+.ctg-six-dc1 {
+  position: relative;
+  top: 60px;
+}
+.ctg-mid-dc1 {
+  position: relative;
+  top: -55px;
+  /* background-color: #003a86; */
+  visibility: hidden;
+}
+
+/*============== DICE TWO==================== */
+.ctg-one-dc2 {
+  position: relative;
+  top: 25px;
+}
+.ctg-two-dc2 {
+  position: relative;
+  top: 25px;
+}
+.ctg-three-dc2 {
+  position: relative;
+  top: 25px;
+}
+.ctg-four-dc2 {
+  position: relative;
+  top: 60px;
+}
+.ctg-five-dc2 {
+  position: relative;
+  top: 60px;
+}
+.ctg-six-dc2 {
+  position: relative;
+  top: 60px;
+}
+.ctg-mid-dc2 {
+  position: relative;
+  top: -55px;
+  /* background-color: #003a86; */
+  visibility: hidden;
+}
+
+/* ============================ */
+
+/* =========BUTTON============ */
+
+#refresh {
+  text-align: center;
+  margin-top: 3%;
+  background-color: #bfd1da00;
+}
+.btn {
+  background-color: rgb(161, 161, 161)
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #000000;
+   font-family: "Bebas Neue", cursive;
+   font-size: 1.5rem;
+   font-weight: 200;
+   padding: 20px;
+   border-style: none;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #ffffff 1px;
+  
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+/* ======== TOGGLE============ */
+.toggle {
+  visibility: hidden;
+  /* background-color:#fff; */
+}
+.toggleMid {
+  /* background-color: #fff; */
+    visibility: visible;
+}
+footer{
+  color: #fff;
+  text-align: center;
+    font-family: "Bebas Neue", cursive;
+
+}
+
+@media screen and (max-width: 600px) {
+
+.dice {
+  width: 100px;
+  height: 100px;
+ 
+ display: inline-block;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 1% 5% 3%;
+  transition: all 2s;
+}
+.ran-num {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  position: relative;
+  margin: 5%;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.ctg-one-dc1 {
+  position: relative;
+  top: 15px;
+}
+.ctg-two-dc1 {
+  position: relative;
+  top: 15px;
+}
+.ctg-three-dc1 {
+  position: relative;
+  top: 15px;
+}
+.ctg-four-dc1 {
+  position: relative;
+  top: 30px;
+}
+.ctg-five-dc1 {
+  position: relative;
+  top: 30px;
+}
+.ctg-six-dc1 {
+  position: relative;
+  top: 30px;
+}
+.ctg-mid-dc1 {
+  position: relative;
+  top: -28.5px;
+  /* background-color: #003a86; */
+  visibility: hidden;
+}
+
+/*============== DICE TWO==================== */
+.ctg-one-dc2 {
+  position: relative;
+  top: 15px;
+}
+.ctg-two-dc2 {
+  position: relative;
+  top: 15px;
+}
+.ctg-three-dc2 {
+  position: relative;
+  top: 15px;
+}
+.ctg-four-dc2 {
+  position: relative;
+  top: 30px;
+}
+.ctg-five-dc2 {
+  position: relative;
+  top: 30px;
+}
+.ctg-six-dc2 {
+  position: relative;
+  top: 30px;
+}
+.ctg-mid-dc2 {
+  position: relative;
+  top: -29.5px;
+  /* background-color: #003a86; */
+visibility: hidden;
+}
+
+.toggle {
+  visibility: hidden;
+  /* background-color:#fff; */
+}
+.toggleMid {
+  /* background-color: #fff; */
+    visibility: visible;
+}
+
+.btn {
+  background-color: #ffffff;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   width: 90px;
+   height: 90px;
+   
+}
+
+#refresh {
+  position: relative;
+  top: 30%;
+}
+
+.btn:hover {
+   border: solid #ffffff 1px;
+   background: #ffffff;
+
+ 
+}
+footer{
+  color: #fff;
+  text-align: center;
+    font-family: "Bebas Neue", cursive;
+
+}
+}
