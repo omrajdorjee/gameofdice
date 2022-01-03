@@ -1,5 +1,5 @@
 body {
-  background-color: #ffe300;
+  background-color: #6E3CBC;
   height: 100vh;
 }
 h1 {
@@ -64,7 +64,7 @@ h5 {
   transition: all 2s;
 }
 .dice-one {
-  background-color: #06ff00;
+  background-color: #009DAE;
 }
 .dice-two {
   background-color: #dd4a48;
@@ -150,7 +150,7 @@ h5 {
   background-color: #bfd1da00;
 }
 .btn {
-  background-color: #f2789f;
+  background-color: #6E3CBC;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 10px;
@@ -295,7 +295,8 @@ footer {
   }
 
   .btn {
-    background-color: #ffe300;
+    background-color: #B983FF;
+    color:#fff;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
@@ -306,12 +307,12 @@ footer {
 
   #refresh {
     position: relative;
-    top: 20%;
+    top: 3rem;
   }
 
   .btn:hover {
     border: solid #ffffff 1px;
-    background: #ffe300;
+    background: #544179;
   }
   footer {
     color: #fff;
@@ -351,3 +352,5 @@ footer {
     border-radius: 10px;
   }
 }
+
+
