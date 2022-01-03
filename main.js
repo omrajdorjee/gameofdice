@@ -1,4 +1,8 @@
+function changeBodyBg(color){
+      document.body.style.background = color;
+      document.getElementById("btn").style.background = color; 
 
+  }
 function myFunction(){
 
   var randomNumDone = Math.random();
