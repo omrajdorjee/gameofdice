@@ -201,8 +201,38 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
 }
-
+.bgColor {
+  position: relative;
+  visibility: hidden;
+}
+/* ==============media starts here============= */
 @media screen and (max-width: 600px) {
+    .colorBg1 {
+    border: none;
+    background-color: #ffccd2;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  .colorBg2 {
+    border: none;
+    background-color: #ffc900;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  .colorBg3 {
+    border: none;
+    background-color: #1c6dd0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+.bgColor {
+  position: relative;
+  visibility: visible;
+}
+
   .dice {
     width: 100px;
     height: 100px;
