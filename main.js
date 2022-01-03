@@ -8,7 +8,7 @@ function myFunction(){
   var randomNumD2 = (Math.floor(randomNumDone * 3)) + randomCom;
    
   if( randomNum > randomNumD2 ){
-        document.getElementById("results").textContent="Player Green Wins";
+        document.getElementById("results").textContent="Player BLUE Wins";
 //         document.getElementById("results").style.color="#064635";
   } 
   else if ( randomNum < randomNumD2 ){
