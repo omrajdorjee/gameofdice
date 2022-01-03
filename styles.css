@@ -149,8 +149,8 @@ h5 {
   margin-top: 3%;
   background-color: #bfd1da00;
 }
-.btn {
-  background-color: #8d6ad1;
+#btn {
+  background-color: #B983FF;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 10px;
@@ -166,8 +166,8 @@ h5 {
   text-align: center;
 }
 
-.btn:hover {
-  border: solid #ec255a 1px;
+#btn:hover {
+  backgroung-color:#94B3FD;
 
   text-decoration: none;
 }
@@ -325,7 +325,7 @@ footer {
     visibility: visible;
   }
 
-  .btn {
+  #btn {
     background-color: #B983FF;
     color:#fff;
     text-decoration: none;
@@ -341,7 +341,7 @@ footer {
     top: 3rem;
   }
 
-  .btn:hover {
+  #btn:hover {
     border: solid #ffffff 1px;
     background: #8d6ad1;
   }
