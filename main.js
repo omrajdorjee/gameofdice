@@ -17,7 +17,7 @@ function myFunction(){
   }
   else {
          document.getElementById("results").textContent="DRAW";
-         document.getElementById("results").style.color="#000B49";
+//          document.getElementById("results").style.color="#000B49";
   }
 
 if (randomNum === 1) {
