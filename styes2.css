@@ -1,0 +1,49 @@
+body {
+  background-color: #94B3FD;
+  max-height: 100vh;
+}
+
+#welcome-text {
+    margin-top: 50%;
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  font-family: monospace;
+  text-shadow: #030303 0.5px 1px;
+}
+#btn {
+  text-align: center;
+}
+.btn {
+  border-radius: 15px;
+  text-align: center;
+  font-family: monospace;
+  width: 200px;
+  height: 100px;
+  font-size: 3rem;
+}
+.btn:hover {
+  background-color: #B8E4F0;
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+  width: 200px;
+  height: 100px;
+  font-size: 2rem;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 600px) {
+  #btn {
+   
+    margin: 40% auto;
+  }
+
+}
