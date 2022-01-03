@@ -8,12 +8,12 @@ function myFunction(){
   var randomNumD2 = (Math.floor(randomNumDone * 3)) + randomCom;
    
   if( randomNum > randomNumD2 ){
-        document.getElementById("results").textContent="PLAYER GREEN WINS";
-        document.getElementById("results").style.color="#064635";
+        document.getElementById("results").textContent="Player Green Wins";
+//         document.getElementById("results").style.color="#064635";
   } 
   else if ( randomNum < randomNumD2 ){
-         document.getElementById("results").textContent="PLAYER RED WINS";
-         document.getElementById("results").style.color="#EC255A";
+         document.getElementById("results").textContent="Player RED Wins";
+//          document.getElementById("results").style.color="#EC255A";
   }
   else {
          document.getElementById("results").textContent="DRAW";
